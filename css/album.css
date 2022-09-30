@@ -43,7 +43,7 @@
     background: none;
     border: 2px solid var(--bs-cyan);
     outline: none;
-    color: white;
+    color: black;
     font-size: 15px;
     line-height: 20px;
   }
