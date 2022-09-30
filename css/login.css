@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'HallymGothic-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+  font-family: 'HallymGothic-Regular';
+  font-weight: 500;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.w-100 {
+  margin-top: 10px;
+}
+.search-box {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  height: 50px;
+  padding: 10px;
+  margin-left: 2em;
+
+}
+.search-btn {
+  display: none;
+}
+.search-txt {
+  float: left;
+  padding: 0;
+  width: 150px;
+  background: none;
+  border: 2px solid var(--bs-cyan);
+  outline: none;
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+@media (max-width:1010px) {
+  .search-box {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+  }
+
+  @media (max-width: 500px) {
+    .search-box {
+      position: absolute;
+      top: 10%;
+      left: 35%;
+    }
+    .search-txt {
+      width: 90px;
+    }
+  }
+}
