@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: 'HallymGothic-Regular';
+    font-weight: 500;
+  }
+  body {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    background-color: #eee;
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .btns {
+    margin-left: 2em;
+    margin-right: 2.5em;
+  }
+  .postbtns {
+    margin-left: 0.25em;
+  }
+  .navbar .btn {
+    display: none;
+  }
+  @media (min-width: 401px) {
+    .postimg {
+      width: 700px;
+      height: 700px;
+      background-image: url(../img/thumb.jpg);
+    }
+  }
+  
+  @media (min-width: 701px) {
+    .postimg {
+      width: 1000px;
+      height: 1000px;
+      background-image: url(../img/thumb.jpg);
+    }
+  }
